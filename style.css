@@ -1,0 +1,194 @@
+y*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+/*main section */
+.overview {
+    top: 500px;
+    height:540px;
+    width: 100%;
+    background-image: url(./IMG-20220522-WA0005.jpg);
+    background-size: cover;
+}
+
+.overview>h1 {
+    padding: 40px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.plans>h2{
+    text-align: center;
+    font-size: 24px;
+    color: #19b84c;
+}
+.plans {
+    width: 100%;
+}
+.plan {
+    display:inline-block;
+    width: 30%;
+    background-color: #d5ffbc;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.plan {
+    display:inline-block;
+    width: 30%;
+    background-color: #d5ffbc;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.plan:hover {
+    display:inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 20px;
+    transform: translateY(-20px);
+}
+.plan>h2:hover {
+      background-color: white;
+      color: #19b84c;
+      border-radius: 8px;
+      padding: 5px;
+      box-shadow:  4px 4px 2px 2px rgb(0, 0, 0, 0.5);
+
+}
+
+.plan .plan-features li{
+    display: flex;
+    align-content: center;
+    margin-left: 35%;
+}
+
+.plan-highlighted {
+    background-color: #19b84c;
+    box-shadow:  4px 4px 2px 2px rgb(0, 0, 0, 0.5);
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    height: 380px;
+}
+
+.plan-title {
+    color: #19b84c;
+    text-align: center;
+}
+
+.plan-features {
+    list-style:none;
+    text-align: cent er;
+}
+
+#tt {
+    color: white;
+
+}
+.plan-highlighted>h2 {
+    color: white;
+    text-align: center;
+
+}
+
+.plan-highlighted .recomended {
+    text-transform: uppercase;
+    background-color: white;
+    color: #19b84c;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow:  4px 4px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #0e4f1f;
+    border-radius: 8px;
+    border-color: #fff;
+    transition: 0.5s;
+    padding: 8px;
+}
+
+button:hover{
+    color: #0e4f1f;
+    background-color: #fff;
+    border-color: #0e4f1f;
+    padding: 9px;
+}
+
+.plans>h2 {
+    font-size: xx-large;
+    color: #19b84c;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: rgba(255, 4, 4, 0.7);
+}
+
+.list {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 70%;
+     vertical-align: middle;
+     margin: 0px 120px;
+}
+
+.list li {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer>h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+    font-weight:bold;
+
+}
+
+#man{
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 90px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+#man:hover {
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 90px;
+    background-color: #fff;
+    transform: translateY(-13px);
+}
+
+footer{
+    background-color:gray;
+    color:#fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: larger;
+
+}
