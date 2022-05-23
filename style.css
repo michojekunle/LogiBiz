@@ -11,17 +11,20 @@ body{
 
 /*main section */
 .overview {
-    top: 500px;
-    height:540px;
+    position: relative;
+    top: 0;
+    height:650px;
     width: 100%;
     background-image: url(./IMG-20220522-WA0005.jpg);
     background-size: cover;
 }
 
 .overview>h1 {
+    position: absolute;
     padding: 40px;
     font-size: 40px;
     color: #fff;
+    bottom: 0;
 }
 
 .plans>h2{
