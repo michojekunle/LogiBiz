@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container>h1 {
+    color: rgba(255, 4, 4, 0.7) ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    position: relative;
+    margin: 15% 30%;
+    align-items: center;
+    margin-top: 2%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.pass {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#boxgrn {
+    background-color: rgba(74, 236, 42, 0.4) ;
+    padding: 5px;
+    border:3px solid #19b84c ;
+    border-radius: 6px;
+    width: 100%;
+
+}
+
+#box {
+    background-color: rgba(255, 4, 4, 0.4) ;
+    padding: 8px;
+    border:3px solid rgba(255, 4, 4, 0.7);
+    width: 100%;
+
+}
+
+#box:focus {
+    background-color:#ffffff ;
+    padding: 8px;
+    border:3px solid rgba(255, 4, 4, 0.7);
+    width: 100%;
+}
+
+span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.br {
+    color: purple;
+}
+
+.ckb {
+    border-radius: 0;
+    color: rgba(255, 4, 4, 0.7);
+}
+
+.submit {
+    background-color: #0e4f1f;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 15px ;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgba(255, 4, 4, 0.7);
+    border-radius: 0;
+    transform: translateY(20px);
+}
+input[type="checkbox"]{
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+    transition: 130ms transform ease-in-out;
+    box-shadow: inset 4px 4px var(--form-control-color);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    background-color: rgba(255, 4, 4, 0.7);
+
+}
+
+input[type="checkbox"]::before{
+    transform-origin: bottom-left;
+    clip-path: polygon(12% 40%, 0 60%, 45% 95%, 95% 12%, 75% 0%, 40% 60%);
+}
+
+
+
+
+
+

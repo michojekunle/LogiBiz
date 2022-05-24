@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background-image: url(./IMG-20220522-WA0007.jpg);
+    background-image: url(../images/IMG-20220522-WA0007.jpg);
     width: 100%;
     height: 100%;
     position: fixed;
