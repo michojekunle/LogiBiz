@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cst {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.cst1 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.about{
+    text-align: right;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 40px;
+}
+
+
+.about h1 {
+    font-size:46px;
+    color: rgba(255, 4, 4, 0.7);
+}
+
+h5 {
+    opacity: 0.4;
+}
+
+#black {
+    color: #000;
+    opacity: 0.9;
+}
+
+
+.cst2 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cst3 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cst4 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.lt {
+    margin-left: 4%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.a3 {
+    margin-left: 10%;
+    margin-right: 0;
+}
