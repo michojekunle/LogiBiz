@@ -34,7 +34,7 @@
             <h1>Awesome! Let's dive right in!</h1>
             <form>
                 <label class="pass">Title</label><br><br>
-                <select name="title" id="boxgrn"> 
+                <select name="title" id="boxgrn"required> 
                     <option value="mr">Mr.</option>
                     <option value="mrs">Mrs.</option>
                     <option value="dr">Dr.</option>
@@ -44,19 +44,20 @@
                 </select>
                 <br><br>
                 <label class="pass">First name</label><br><br>
-                <input type="text" name="Firstname" id="box">
+                <input type="text" name="Firstname" id="box" required>
 <br><br>
                 <label class="pass">Last name</label><br><br>
-                <input type="text" name="lastname" id="box">
+                <input type="text" name="lastname" id="box" required>
 <br><br>
                 <label class="pass">E-Mail</label><br><br>
-                <input type="email" name="E-mail" id="box">
+                <input type="email" name="E-mail" id="box" required>
 <br><br>
                 <label class="pass">Password</label><br><br>
-                <input type="password" name="password" id="box">
+                <input type="password" name="password" id="box" required>
 <br><br>
 
-                <input style="color: rgba(255, 4, 4, 0.7);" type="checkbox" class="ckb"> <span>Agree to <a class="br" href="#">Terms & Conditions</a> </span>
+                <input style="color: rgba(255, 4, 4, 0.7);" type="checkbox" class="ckb" required>
+                <span>Agree to <a class="br" href="#">Terms & Conditions</a> </span>
                 <br><br>
 
                 <input type="submit" value="Sign Up" class="submit">
