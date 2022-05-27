@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-header {
+ header {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ header {
     z-index: 2;
 }
 .navnav{
-    margin:20px 20px ;
+    margin:20px 0px ;
 }
 
 .nav-items li {
@@ -42,7 +42,6 @@ header {
     text-decoration: none;
     display: inline-block;
     align-items: center;
-    padding-right: 50px;
 }
 .nav-items li a {
     padding: 8px;
@@ -67,4 +66,41 @@ footer{
     padding: 10px 0;
     text-align: center;
     font-size: larger;
+}
+
+@media (max-width:600px), (min-width:601px) and (max-width:900px){
+    .nav-items {
+        display: block;
+        margin-right: 80px;
+    }
+
+    .nav-items li {
+        padding: 8px 0 ;
+    }
+    
+    .nav-items .login {
+        background-color: red;
+        color: #fff;
+        border-radius: 8px;
+        padding: 2px 6px;
+    }
+
+    .nav-items .login:hover {
+        background-color: red;
+        color: #fff;
+        border-radius: 8px;
+        padding: 2px 6px;
+    }
+    .lgbiz{ 
+        margin-left: 90%;
+    }
+
+
+}
+
+@media (min-width:601px) and (max-width:900px){
+    .lgbiz{ 
+        margin-left: 60%;
+    }
+
 }

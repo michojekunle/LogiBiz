@@ -16,10 +16,10 @@
 
 form {
     position: relative;
-    margin: 15% 30%;
+    margin: 15% 25%;
     align-items: center;
     margin-top: 2%;
-    width: 40%;
+    width: 50%;
     margin-bottom: 5%;
 }
 
@@ -114,6 +114,40 @@ input[type="checkbox"]::before{
     clip-path: polygon(12% 40%, 0 60%, 45% 95%, 95% 12%, 75% 0%, 40% 60%);
 }
 
+@media (max-width:600px), (min-width:600px) and (max-width:900px){
+    main {
+        margin-top: 180px;
+    }
+
+    form {
+        margin: 12.5%;
+        align-items: center;
+        width: 75%;
+
+    }
+.container {
+    margin-top: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container>h1 {
+    color: rgba(255, 4, 4, 0.7) ;
+    text-align: center;
+    font-size: 24px;
+}
+
+.pass {
+    font-size: 16px;
+}
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .container>h1 {
+        color: rgba(255, 4, 4, 0.7) ;
+        text-align: center;
+        font-size: 32px;
+    }
+}
 
 
 

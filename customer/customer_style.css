@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 main {
@@ -58,13 +59,51 @@ h5 {
     padding: 20px 0;
 }
 
+.a3 {
+    margin-left: 10%;
+    margin-right: 0;
+}
+
 .lt {
     margin-left: 4%;
     margin-right: 5%;
     text-align: left;
 }
 
-.a3 {
-    margin-left: 10%;
-    margin-right: 0;
+
+
+
+@media (max-width:600px), (min-width:600px) and (max-width:900px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    .cst1, .cst2, .cst3, .cst4{
+        display: block;
+        padding: 10px;
+    }
+
+
+    .cst {
+        width: 100%;
+        height: 50vh;
+        justify-content: left;
+        align-items:flex-end;
+    }
+    .a3 {
+        left: 80%;
+    }
+
+    .lt {
+        margin: inherit;
+    }
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .about {
+        padding: 10px;
+    }
+
 }
