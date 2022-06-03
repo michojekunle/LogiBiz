@@ -140,7 +140,7 @@ button:hover{
     background-color: #fff;
 }
 
-@media (max-width:600px) {
+@media (max-width:600px) , (min-width:601px) and (max-width:900px){
     body {
         width: 100%;
     }
